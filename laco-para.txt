@@ -1,0 +1,8 @@
+algoritmo "ContadorDeItens"
+var 
+ contador: inteiro
+inicio
+  para contador de 1 ate 10 faca
+  escreval("item", contador)
+  fimpara
+fimalgoritmo
