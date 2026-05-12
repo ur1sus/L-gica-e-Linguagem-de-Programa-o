@@ -1,0 +1,14 @@
+algoritmo "Soma"
+var
+  soma: inteiro
+  numero1: inteiro
+  numero2: inteiro
+  resultado: inteiro
+  sentinela: inteiro
+inicio
+sentinela <- 0
+enquanto sentinela <> -99 faca 
+
+escreva ("Digite numero1": )
+ leia (numero1)
+ escreva (Digite numero2": )
