@@ -8,7 +8,14 @@ var
 inicio
 sentinela <- 0
 enquanto sentinela <> -99 faca 
-
-escreva ("Digite numero1": )
- leia (numero1)
+ escreval ("Digite numero1": )
+ leia (numero1) 
  escreva (Digite numero2": )
+ leia (numero2)
+ resultado <- numero1 + numero2
+ escreval (numero1, "+", numero2, "=", resultado)
+ escreval ("Deseja continuar executando? [-99 para sair]")
+ leia (sentinela)
+fimenquanto
+escreval ("Saiu do Laço")
+fimalgoritmo
