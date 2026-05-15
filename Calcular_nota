@@ -17,8 +17,16 @@ quantidade_notas = 0
  leia (nota_digitada)
  fimenquanto
 Se quantidade_notas > 0 entao calcule a media e mostre os resultados
-Senão mostre a mensagem informando ("Nenhuma mensagem foi inserida")
-
+Senão escreval ("Nenhuma mensagem foi inserida")
+ Se quantidade_notas > 0 entao
+ media_turma := soma_notas/quantidade_notas
+ escreval ("Resultado Final")
+ escreval ("Total de notas inseridas:", quantidade_notas)
+ escreval ("A média da turma é: ", media_turma:4:2
+ Senao 
+ escreval("Nenhuma nota foi inserida.")
+fimse
+fimalgoritmo
 
 
 fimalgoritmo
