@@ -1,2 +1,24 @@
 Algoritmo "Media_de_Alunos"
 var
+soma_notas: real
+quantidade_notas: inteiro
+nota_digitada: real
+media_turma: real
+
+inicio
+soma_notas = 0
+quantidade_notas = 0
+ escreval ("Digite a nota do aluno (ou -1 para calcular)")
+ leia (nota_digitada)
+ enquanto nota_digitada <> -1 faca
+ soma_notas:= soma_notas + nota_digitada
+ quantidade_notas := quantidade_notas + 1
+ escreval ("Digite a próxima nota (ou -1 para calcular):") 
+ leia (nota_digitada)
+ fimenquanto
+Se quantidade_notas > 0 entao calcule a media e mostre os resultados
+Senão mostre a mensagem informando ("Nenhuma mensagem foi inserida")
+
+
+
+fimalgoritmo
