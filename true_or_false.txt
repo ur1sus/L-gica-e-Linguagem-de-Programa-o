@@ -2,7 +2,7 @@ algoritmo "verdadeiro-falso"
 var
  valores: vetor[1..15]
  posicao: inteiro
- eh_verdadde: logico
+ eh_verdade: logico
 inicio
   eh_verdade <- verdadeiro
   para posicao de 1 ate 15 faca
