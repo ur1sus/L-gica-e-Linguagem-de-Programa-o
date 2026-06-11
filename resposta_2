@@ -1,0 +1,16 @@
+algoritmo "exibir_itens"
+
+var
+ produtos: vetor [1..5] de caracter 
+ i: inteiro 
+
+inicio
+produtos[1] <- "Computador"
+produtos[2] <- "Televisão"
+produtos[3] <- "Mesa"
+produtos[4] <- "Cadeira"
+produtos[5] <- "Fone"
+para i de 1 ate 5 faca
+ escreval (produtos[i])
+fimpara
+fimalgoritmo
