@@ -1,0 +1,41 @@
+Comandos do GitHub
+
+Criar um rep-local - Esses comandos você utiliza apenas uma vez quando
+
+inicializar o rep-local
+
+
+git init
+
+git config --global user.name "DielmeRamosGomes"
+
+git config --global user.email "dielme.ramos@unesp.br"
+
+git branch -M main
+
+git remote add origin https://github.com/DielmeRamosGomes/rep-dielme-2026.git
+
+
+-------------------------------------------------------------------------
+
+
+ATENÇÃO sempre antes de codificar dar o comando
+
+git pull origin main
+
+para pegar as atualizações do git senão pode dar erro de merge
+
+
+-------------------------------------------------------------------------
+
+
+comandos que você usa no terminal para subir para o github suas
+
+atualizações
+
+
+git add . // pega todas as atualizações
+
+git commit -m "deve-passar-uma-mensagem-aqui"
+
+git push origin main // pega as atualizações e manda para o github
